@@ -1,0 +1,10 @@
+title=MSX 2
+#description=MSX 2 Emulator
+icon=skin:icons/msx2.png
+backdrop=skin:wallpapers/msx2.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/bluemsx_libretro.so
+selectordir=/mnt/extsd/roms/msx2
+wrapper=true

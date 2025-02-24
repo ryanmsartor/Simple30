@@ -1,0 +1,10 @@
+title=MAME 2003-Plus
+#description=MAME Emulator
+icon=skin:icons/mame.png
+backdrop=skin:wallpapers/mame.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/mame2003_plus_libretro.so
+selectordir=/mnt/extsd/roms/mame2003
+wrapper=true

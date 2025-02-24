@@ -1,0 +1,11 @@
+title=Wolfenstein 3D
+#description=Wolfenstein 3D Emulator
+icon=skin:icons/wolfenstein3d.png
+backdrop=skin:wallpapers/wolfenstein3d.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/ecwolf_libretro.so
+selectordir=/mnt/extsd/roms/ecwolf
+wrapper=true
+selectorfilter=exe,EXE

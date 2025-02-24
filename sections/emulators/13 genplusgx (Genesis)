@@ -1,0 +1,10 @@
+title=Sega Genesis
+#description=SMS/SMD Emulator
+icon=skin:icons/md.png
+backdrop=skin:wallpapers/genesis.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/genesis_plus_gx_libretro.so
+selectordir=/mnt/extsd/roms/genesis
+wrapper=true

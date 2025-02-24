@@ -1,0 +1,10 @@
+title=Satellaview
+#description=Satellaview Emulator
+icon=skin:icons/satellaview.png
+backdrop=skin:wallpapers/satellaview.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/snes9x_libretro.so
+selectordir=/mnt/extsd/roms/satellaview
+wrapper=true

@@ -1,0 +1,12 @@
+title=Commodore PET
+#description=Commodore PET Emulator
+icon=skin:icons/pet.png
+backdrop=skin:wallpapers/pet.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/vice_xpet_libretro.so
+selectordir=/mnt/extsd/roms/xpet
+wrapper=true
+
+{\rtf1}

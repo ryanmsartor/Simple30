@@ -1,0 +1,10 @@
+title=Atari 7800
+#description=Atati 7800
+icon=skin:icons/atari7800.png
+backdrop=skin:wallpapers/atari7800.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/prosystem_libretro.so
+selectordir=/mnt/extsd/roms/atari7800
+wrapper=true

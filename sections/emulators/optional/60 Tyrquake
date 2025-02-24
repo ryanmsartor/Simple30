@@ -1,0 +1,10 @@
+title=Tyrquake
+#description=Quake Emulator
+icon=skin:icons/quake.png
+backdrop=skin:wallpapers/quake.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/tyrquake_libretro.so
+selectordir=/mnt/extsd/roms/tyrquake
+wrapper=true

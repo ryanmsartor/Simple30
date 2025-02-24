@@ -1,0 +1,11 @@
+title=Neo Geo CD
+#description=Arcade Emulator(GCW0)
+icon=skin:icons/neogeocd.png
+backdrop=skin:wallpapers/neogeocd.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/neocd_libretro.so
+selectordir=/mnt/extsd/roms/neogeocd
+wrapper=true
+selectorfilter=cue,chd,CUE,CHD

@@ -1,0 +1,10 @@
+title=Videopac
+#description=Videopac Emulator
+icon=skin:icons/videopac.png
+backdrop=skin:wallpapers/videopac.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/o2em_libretro.so
+selectordir=/mnt/extsd/roms/videopac
+wrapper=true

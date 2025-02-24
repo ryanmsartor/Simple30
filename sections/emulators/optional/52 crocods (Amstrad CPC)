@@ -1,0 +1,10 @@
+title=Amstrad
+#description=amstrad Emulator
+icon=skin:icons/amstradcpc.png
+backdrop=skin:wallpapers/amstradcpc.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/crocods_libretro.so
+selectordir=/mnt/extsd/roms/amstrad
+wrapper=true

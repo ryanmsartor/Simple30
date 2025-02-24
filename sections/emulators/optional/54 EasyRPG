@@ -1,0 +1,11 @@
+title=Easy RPG
+#description=Easy RPG Emulator
+icon=skin:icons/easyrpg.png
+backdrop=skin:wallpapers/easyrpg.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/easyrpg_libretro.so
+selectordir=/mnt/extsd/roms/easyrpg
+wrapper=true
+selectorfilter=exe,EXE

@@ -1,0 +1,11 @@
+title=Sega Dreamcast
+#description=DC Emulator
+icon=skin:icons/dc.png
+backdrop=skin:wallpapers/dc.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/flycast_libretro.so
+selectordir=/mnt/extsd/roms/dc
+wrapper=true
+selectorfilter=gdi,cdi,zip,chd

@@ -1,0 +1,9 @@
+#!/bin/sh
+# Set the home directory to the SD card
+export XDG_CONFIG_HOME=/mnt/extsd
+#remount the SD card with sync flag
+mount -o remount,sync /mnt/extsd/
+#boot the actual menu binary
+/mnt/extsd/bin/retroarch
+#shutdown on exit
+reboot -p

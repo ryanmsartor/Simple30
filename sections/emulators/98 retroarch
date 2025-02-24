@@ -1,0 +1,5 @@
+
+#description=Retroarch Menu
+#icon=skin:icons/poweroff.png
+backdrop=skin:wallpapers/retroarch.png
+exec=/mnt/extsd/emus/ramenulauncher/retroarch.dge

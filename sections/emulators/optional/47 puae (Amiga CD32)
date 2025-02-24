@@ -1,0 +1,10 @@
+title=Amiga CD 32
+#description=Amiga CD 32
+icon=skin:icons/amigacd32 .png
+backdrop=skin:wallpapers/amigacd32.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/puae_libretro.so
+selectordir=/mnt/extsd/roms/amigacd32
+wrapper=true

@@ -1,0 +1,10 @@
+title=Xrick
+#description=Xrick
+icon=skin:icons/xrick.png
+backdrop=skin:wallpapers/xrick.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/xrick_libretro.so
+selectordir=/mnt/extsd/roms/xrick
+wrapper=true

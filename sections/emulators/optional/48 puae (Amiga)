@@ -1,0 +1,10 @@
+title=Amiga
+#description=Amiga
+icon=skin:icons/amiga.png
+backdrop=skin:wallpapers/amiga.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/puae_libretro.so
+selectordir=/mnt/extsd/roms/amiga
+wrapper=true

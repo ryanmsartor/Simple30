@@ -1,0 +1,12 @@
+title=Commodore 128
+#description=Commodore 128 Emulator
+icon=skin:icons/c128.png
+backdrop=skin:wallpapers/c128.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/vice_x128_libretro.so
+selectordir=/mnt/extsd/roms/c128
+wrapper=true
+
+{\rtf1}

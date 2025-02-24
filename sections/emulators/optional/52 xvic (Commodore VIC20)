@@ -1,0 +1,10 @@
+title=VIC20
+#description=Vic20 Emulator
+icon=skin:icons/vic20.png
+backdrop=skin:wallpapers/vic20.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/vice_xvic_libretro.so
+selectordir=/mnt/extsd/roms/vic20
+wrapper=true

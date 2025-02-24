@@ -1,0 +1,11 @@
+title=Play Station 1
+#description=PSX Emulator
+#icon=skin:icons/psx.png
+backdrop=skin:wallpapers/psx.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+wrapper=true
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/pcsx_rearmed_libretro.so
+selectordir=/mnt/extsd/roms/psx
+selectorfilter=cue,pbp,zip,chd

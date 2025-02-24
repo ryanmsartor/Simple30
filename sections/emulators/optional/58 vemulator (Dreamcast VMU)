@@ -1,0 +1,10 @@
+title=VMU
+#description=Sega VMU Emulator
+icon=skin:icons/vmu.png
+backdrop=skin:wallpapers/vmu.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c retroarch-arcade.cfg -L /mnt/extsd/retroarch/cores/vemulator_libretro.so
+selectordir=/mnt/extsd/roms/vmu
+wrapper=true

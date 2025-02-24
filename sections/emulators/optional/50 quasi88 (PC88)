@@ -1,0 +1,10 @@
+title=PC 88
+#description=PC 88 Emulator
+icon=skin:icons/pc88.png
+backdrop=skin:wallpapers/pc88.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/quasi88_libretro.so
+selectordir=/mnt/extsd/roms/pc88
+wrapper=true

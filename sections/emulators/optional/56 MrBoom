@@ -1,0 +1,10 @@
+title=MrBoom
+#description=MrBoom Emulator
+icon=skin:icons/mrboom.png
+backdrop=skin:wallpapers/mrboom.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/mrboom_libretro.so
+selectordir=/mnt/extsd/roms/mrboom
+wrapper=true

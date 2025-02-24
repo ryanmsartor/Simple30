@@ -1,0 +1,10 @@
+title=Super Famicom
+#description=Super Famicom Emulator
+icon=skin:icons/superfamicom.png
+backdrop=skin:wallpapers/superfamicom.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/snes9x_libretro.so
+selectordir=/mnt/extsd/roms/sfc
+wrapper=true

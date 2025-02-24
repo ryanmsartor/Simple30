@@ -1,0 +1,10 @@
+title=Famicom
+#description=FC Emulator
+icon=skin:icons/famicom.png
+backdrop=skin:wallpapers/famicom.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/fceumm_libretro.so
+selectordir=/mnt/extsd/roms/famicom
+wrapper=true

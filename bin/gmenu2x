@@ -1,0 +1,5 @@
+#!/bin/sh
+#remount the SD card with the sync flag added
+mount -o remount,sync /mnt/extsd/
+#boot the actual menu binary
+/mnt/extsd/bin/gmenu2x-bin

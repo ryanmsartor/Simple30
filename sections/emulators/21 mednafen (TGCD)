@@ -1,0 +1,11 @@
+title=TurboGrafx-CD
+#description=TurboGrafx Emulator
+icon=skin:icons/pce.png
+backdrop=skin:wallpapers/tgcd.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/mednafen_pce_fast_libretro.so
+selectordir=/mnt/extsd/roms/tgcd
+wrapper=true
+selectorfilter=cue,zip

@@ -1,0 +1,10 @@
+title=N64 DD
+#description=N64DD
+#icon=skin:icons/n64dd.png
+backdrop=skin:wallpapers/n64dd.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/mupen64plus_libretro.so
+selectordir=/mnt/extsd/roms/n64dd
+wrapper=true

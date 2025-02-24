@@ -1,0 +1,10 @@
+title=Intellivision
+#description=Intellivison Emulator
+icon=skin:icons/intellivision.png
+backdrop=skin:wallpapers/intellivision.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/freeintv_libretro.so
+selectordir=/mnt/extsd/roms/intellivision
+wrapper=true

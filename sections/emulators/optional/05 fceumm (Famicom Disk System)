@@ -1,0 +1,10 @@
+title=Famicom Disk System
+#description=FC/NES Emulator
+icon=skin:icons/fc.png
+backdrop=skin:wallpapers/fds.png
+exec=/mnt/extsd/bin/retroarch
+volume=1
+selectorbrowser=false
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/fceumm_libretro.so
+selectordir=/mnt/extsd/roms/fds
+wrapper=true
