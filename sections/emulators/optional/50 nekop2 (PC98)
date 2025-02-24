@@ -2,7 +2,7 @@
 #description=PC 98 Emulator
 icon=skin:icons/pc98.png
 backdrop=skin:wallpapers/pc98.png
-exec=/mnt/extsd/bin/retroarch
+exec=/mnt/extsd/retroarch/retroarch
 volume=1
 selectorbrowser=false
 params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/nekop2_libretro.so
