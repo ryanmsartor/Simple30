@@ -1,1 +1,0 @@
-If you wanto to make RetroArch your default launcher instead of the current user interface, simply drag this "gmenu2x" file into the bin folder of your SD card and replace the gmenu2x file that's already there.
