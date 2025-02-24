@@ -1,5 +1,0 @@
-#!/bin/sh
-#remount the SD card with sync flag
-mount -o remount,sync /mnt/extsd/
-#boot the actual menu binary
-/mnt/extsd/bin/retroarch -v -c /mnt/extsd/retroarch/retroarch.cfg

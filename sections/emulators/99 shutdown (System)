@@ -2,4 +2,4 @@ title=Shutdown
 #description=Controlled System Shutdown
 #icon=skin:icons/poweroff.png
 backdrop=skin:wallpapers/poweroff.png
-exec=/mnt/extsd/emus/softshutdown/shutdown.dge
+exec=/mnt/extsd/bin/shutdown.sh
