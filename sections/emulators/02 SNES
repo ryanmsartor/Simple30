@@ -1,11 +1,8 @@
-title=SNES
-#description=SNES
-icon=skin:icons/SNES.png
-backdrop=skin:wallpapers/snesmsu1.png
+title=Super Nintendo Entertainment System
+backdrop=skin:wallpapers/SNES.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1
 selectorbrowser=false
 params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/snes9x_libretro.so
-selectordir=/mnt/extsd/roms/snesmsu1
+selectordir=/mnt/extsd/ROMs/SNES
 wrapper=true
-selectorfilter=sfc,SFC,smc,SMC

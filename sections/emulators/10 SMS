@@ -1,10 +1,8 @@
 title=Sega Master System
-#description=SMS/SMD Emulator
-icon=skin:icons/md.png
-backdrop=skin:wallpapers/sms.png
+backdrop=skin:wallpapers/SMS.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1
 selectorbrowser=false
 params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/genesis_plus_gx_libretro.so
-selectordir=/mnt/extsd/roms/sms
+selectordir=/mnt/extsd/ROMs/SMS
 wrapper=true

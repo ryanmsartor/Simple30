@@ -1,11 +1,8 @@
-title=Sammy Atomiswave
-#description=atomiswave Emulator
-icon=skin:icons/dc.png
-backdrop=skin:wallpapers/atomiswave.png
+title=Sega Dreamcast
+backdrop=skin:wallpapers/DC.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1
 selectorbrowser=false
 params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/flycast_libretro.so
-selectordir=/mnt/extsd/roms/atomiswave
+selectordir=/mnt/extsd/ROMs/DC
 wrapper=true
-selectorfilter=gdi,cdi,zip,bin,ist

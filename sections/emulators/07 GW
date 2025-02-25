@@ -1,10 +1,8 @@
 title=Game and Watch
-#description=GW Emulator
-icon=skin:icons/gb.png
-backdrop=skin:wallpapers/gw.png
+backdrop=skin:wallpapers/GW.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1
 selectorbrowser=false
 params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/gw_libretro.so
-selectordir=/mnt/extsd/roms/gw
+selectordir=/mnt/extsd/ROMs/GW
 wrapper=true

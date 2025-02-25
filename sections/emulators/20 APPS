@@ -1,5 +1,7 @@
-title=Shutdown
-#description=Controlled System Shutdown
-#icon=skin:icons/poweroff.png
-backdrop=skin:wallpapers/poweroff.png
-exec=/mnt/extsd/bin/shutdown.sh
+title=Apps and Ports
+backdrop=skin:wallpapers/APPS.png
+exec=/bin/sh
+volume=1
+selectorbrowser=false
+selectordir=/mnt/extsd/ROMs/APPS
+wrapper=true

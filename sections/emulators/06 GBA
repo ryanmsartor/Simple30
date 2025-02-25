@@ -1,10 +1,8 @@
 title=Game Boy Advance
-#description=GBA Emulator
-#icon=skin:icons/gba.png
-backdrop=skin:wallpapers/gba.png
+backdrop=skin:wallpapers/GBA.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1
-wrapper=true
 selectorbrowser=false
 params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/mgba_libretro.so
-selectordir=/mnt/extsd/roms/gba
+selectordir=/mnt/extsd/ROMs/GBA
+wrapper=true

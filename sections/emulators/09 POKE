@@ -1,11 +1,8 @@
-title=Easy RPG
-#description=Easy RPG Emulator
-icon=skin:icons/easyrpg.png
-backdrop=skin:wallpapers/easyrpg.png
+title=Pokemon Mini
+backdrop=skin:wallpapers/POKE.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1
 selectorbrowser=false
-params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/easyrpg_libretro.so
-selectordir=/mnt/extsd/roms/easyrpg
+params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/pokemini_libretro.so
+selectordir=/mnt/extsd/ROMs/POKE
 wrapper=true
-selectorfilter=exe,EXE

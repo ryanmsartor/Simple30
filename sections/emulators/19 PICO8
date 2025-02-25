@@ -1,10 +1,8 @@
-title=2048
-#description=2048 Emulator
-icon=skin:icons/2048.png
-backdrop=skin:wallpapers/2048.png
-exec=/mnt/extsd/retroarch/retroarch
+title=Pico-8
+backdrop=skin:wallpapers/PICO8.png
+exec=/mnt/extsd/bin/pico8_dyn
 volume=1
 selectorbrowser=false
-params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/2048_libretro.so
-selectordir=/mnt/extsd/roms/2048
+params=-run
+selectordir=/mnt/extsd/ROMs/PICO8
 wrapper=true

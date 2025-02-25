@@ -1,11 +1,8 @@
-title=Game Gear
-#description=GG Emulator
-icon=skin:icons/gg.png
-backdrop=skin:wallpapers/gg.png
+title=Sega Game Gear
+backdrop=skin:wallpapers/GG.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1
 selectorbrowser=false
 params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/genesis_plus_gx_libretro.so
-selectordir=/mnt/extsd/roms/gg
+selectordir=/mnt/extsd/ROMs/GG
 wrapper=true
-selectorfilter=gg,zip

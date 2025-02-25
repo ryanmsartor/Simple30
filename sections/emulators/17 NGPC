@@ -1,10 +1,8 @@
 title=Neo Geo Pocket Color
-#description=NGP Emulator
-icon=skin:icons/ngp.png
-backdrop=skin:wallpapers/ngpc.png
+backdrop=skin:wallpapers/NGPC.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1
 selectorbrowser=false
 params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/mednafen_ngp_libretro.so
-selectordir=/mnt/extsd/roms/ngpc
+selectordir=/mnt/extsd/ROMs/NGPC
 wrapper=true
