@@ -1,10 +1,10 @@
 title=NES
-#description=NES Emulator
-icon=skin:icons/fc.png
-backdrop=skin:wallpapers/nes.png
+#description=Nintendo Entertainment System
+icon=skin:icons/NES.png
+backdrop=skin:wallpapers/NES.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1
 selectorbrowser=false
 params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/fceumm_libretro.so
-selectordir=/mnt/extsd/roms/nes
+selectordir=/mnt/extsd/roms/NES
 wrapper=true

@@ -1,6 +1,6 @@
-title=SNES MSU 1
-#description=SNES MSU 1 Emulator
-icon=skin:icons/snesmsu1.png
+title=SNES
+#description=SNES
+icon=skin:icons/SNES.png
 backdrop=skin:wallpapers/snesmsu1.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1

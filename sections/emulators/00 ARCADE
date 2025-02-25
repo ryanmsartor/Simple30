@@ -1,10 +1,10 @@
-title=FinalBurn Neo
-#description=Arcade Emulator
-icon=skin:icons/fba.png
-backdrop=skin:wallpapers/fbn.png
+title=ARCADE
+#description=Arcade
+icon=skin:icons/ARCADE.png
+backdrop=skin:wallpapers/ARCADE.png
 exec=/mnt/extsd/retroarch/retroarch
 volume=1
 selectorbrowser=false
 params=-v -c /mnt/extsd/retroarch/retroarch.cfg -L /mnt/extsd/retroarch/cores/fbneo_libretro.so
-selectordir=/mnt/extsd/roms/fbn
+selectordir=/mnt/extsd/roms/ARCADE
 wrapper=true
