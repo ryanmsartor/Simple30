@@ -5,3 +5,4 @@ volume=1
 selectorbrowser=false
 selectordir=/mnt/extsd/ROMs/APPS
 wrapper=true
+selectorfilter=sh

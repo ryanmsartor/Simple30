@@ -1,8 +1,9 @@
 title=Pico-8
 backdrop=skin:wallpapers/PICO8.png
-exec=/mnt/extsd/bin/pico8_dyn
+exec=/mnt/extsd/ROMs/APPS/Pico-8.sh
 volume=1
 selectorbrowser=false
 params=-run
 selectordir=/mnt/extsd/ROMs/PICO8
 wrapper=true
+selectorfilter=png,p8
