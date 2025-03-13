@@ -3,9 +3,14 @@
 LOGFILE="/mnt/extsd/app.log"
 echo "Launching Pico-8!" > "$LOGFILE"
 
-if [ -f /mnt/extsd/bin/pico8_dyn ]; then
+P8_DIR=/mnt/extsd/bin/pico8
 
-	cd /mnt/extsd/bin/pico8
+if [ -f "$P8_DIR/pico8_dyn" ]; then
+
+	export HOME="$P8_DIR"
+	export LD_LIBRARY_PATH="$P8_DIR:$LD_LIBRARY_PATH"
+	cd "$P8_DIR"
+	
 	if [ -z "$1" ]; then
 		./pico8_dyn -splore >> "$LOGFILE" 2>&1
 	else
