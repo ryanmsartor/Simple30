@@ -27,9 +27,11 @@ is_empty() { # expects full dir path
 is_visible() { # expects basename of emu
 	emu="$1"
 
-	if [ -f "$ROM_DIR/$emu" ]; then
+	if [ -e "$EMU_DIR/$emu" ]; then
+		echo "$emu is currently visible"
 		return 0
 	else
+		echo "$emu is NOT currently visible"
 		return 1
 	fi
 }
@@ -40,11 +42,15 @@ check_and_handle() { # expects basename of rom_subdir and basename of emufile
 
 	if is_empty "$ROM_DIR/$rom_subdir"; then
 		if is_visible "$emufile"; then
-			mv -f "$ROM_DIR/$emufile" "$HIDDEN_DIR/$emufile" 2>/dev/null
+			echo "moving $emufile to $HIDDEN_DIR"
+			mv -f "$EMU_DIR/$emufile" "$HIDDEN_DIR/$emufile" 2>/dev/null
+			echo ""
 		fi
 	else     ### rom subdir is not empty
 		if ! is_visible "$emufile"; then
-			mv -f "$HIDDEN_DIR/$emufile" "$ROM_DIR/$emufile" 2>/dev/null
+			echo "moving $emufile out of $HIDDEN_DIR"
+			mv -f "$HIDDEN_DIR/$emufile" "$EMU_DIR/$emufile" 2>/dev/null
+			echo ""
 		fi
 	fi
 }
